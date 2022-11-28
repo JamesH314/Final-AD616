@@ -1,4 +1,5 @@
 # Initial place for coding by James
 
 Peak <- read.csv("PeakData.csv", header = T)
-View(Peak)
+Peak_1 <- Peak[-1,]
+View(Peak_1)
