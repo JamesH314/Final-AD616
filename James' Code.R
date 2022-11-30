@@ -7,3 +7,7 @@ View(Peak_1)
 NonPeak <- read.csv("NonPeakData.csv", header = T)
 NonPeak_1 <- NonPeak[-1,]
 View(NonPeak_1)
+
+#useful functions
+upper.tri()
+rowSums()
